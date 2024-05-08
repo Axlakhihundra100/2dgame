@@ -39,8 +39,11 @@ public class Player extends Entity {
     public void draw(Graphics2D g2)  {
         g2.setColor(Color.white);
 
+
         g2.fillRect(x, y, gp.tileSize, gp.tileSize);
 
 
     }
 }
+// C:\Users\AxelEngan\IdeaProjects\test2\src\main\resources\gubbe.png
+// Image img = ImageIO.read(getClass().getResourceAsStream("/gubbe.png"));
