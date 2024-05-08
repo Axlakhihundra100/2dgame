@@ -22,16 +22,16 @@ public class Player extends Entity {
         speed = 4;
     }
     public void update()    {
-        if(keyH.upPressed == true)  {
+        if(keyH.upPressed)  {
             y -= speed;
         }
-        else if(keyH.downPressed == true)   {
+        else if(keyH.downPressed)   {
             y += speed;
         }
-        else if(keyH.leftPressed == true)   {
+        else if(keyH.leftPressed)   {
             x -= speed;
         }
-        else if(keyH.rightPressed == true)  {
+        else if(keyH.rightPressed)  {
             x += speed;
         }
 
